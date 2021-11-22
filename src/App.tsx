@@ -1,7 +1,10 @@
+import Dicom from "./dicom";
+import index from './index.module.less';
+
 function App() {
   return (
-    <div className="App">
-      init
+    <div className={index.app}>
+      <Dicom/>
     </div>
   );
 }
